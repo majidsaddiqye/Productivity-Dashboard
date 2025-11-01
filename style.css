@@ -74,6 +74,8 @@ section.allElems {
   overflow: hidden;
   position: relative;
   transition: all ease 0.2s;
+  cursor: pointer;
+  box-shadow: 5 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .elem img {
@@ -82,19 +84,19 @@ section.allElems {
   object-fit: cover;
 }
 
-.elem h2{
-    position: absolute;
-    bottom: 4%;
-    right: 5%;
-    font-weight: 500;
-    font-size: 28px;
+.elem h2 {
+  position: absolute;
+  bottom: 4%;
+  right: 5%;
+  font-weight: 500;
+  font-size: 28px;
 }
 
-.elem:active{
-    scale: 0.97;
+.elem:active {
+  scale: 0.97;
 }
 
-section.fullElem{
+section.fullElem {
   height: 100%;
   width: 100%;
   background-color: #381c0a;
@@ -102,4 +104,19 @@ section.fullElem{
   font-size: 50px;
   display: none;
   position: absolute;
+}
+.back {
+  position: absolute;
+  right: 5%;
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px 11px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.back:active{
+  scale: 0.97;
 }
