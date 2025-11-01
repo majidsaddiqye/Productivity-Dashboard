@@ -63,6 +63,7 @@ section.allElems {
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 20px;
+  position: absolute;
 }
 
 .elem {
@@ -91,4 +92,14 @@ section.allElems {
 
 .elem:active{
     scale: 0.97;
+}
+
+section.fullElem{
+  height: 100%;
+  width: 100%;
+  background-color: #381c0a;
+  padding: 20px;
+  font-size: 50px;
+  display: none;
+  position: absolute;
 }
